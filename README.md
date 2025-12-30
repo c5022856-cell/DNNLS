@@ -99,7 +99,7 @@ Repository layout
 Quickstart
 
 ```bash
-cd "Ashraf - Project 5"
+cd "Ashraf"
 
 # Train alignment model
 python src/train_gan.py --epochs 2 --batch_size 4
