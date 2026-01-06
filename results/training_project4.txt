@@ -1,0 +1,30 @@
+Training Losses — Project4 (2 Epochs)
+
+Epoch 1
+Train:
+- Text loss: 2.8431
+- Image loss: 0.00345
+- Alignment loss: 0.01863
+- Total loss: 2.8542
+
+Validation:
+- Text loss: 2.5619
+- Image loss: 0.00298
+- Alignment loss: 0.00083
+- Total loss: 2.5638
+
+Epoch 2
+Train:
+- Text loss: 2.7522
+- Image loss: 0.00253
+- Alignment loss: 0.00050
+- Total loss: 2.7537
+
+Validation:
+- Text loss: 2.5441
+- Image loss: 0.00211
+- Alignment loss: 0.00052
+- Total loss: 2.5455
+
+Observation:
+Both training and validation total losses decrease across epochs, indicating stable learning without overfitting.

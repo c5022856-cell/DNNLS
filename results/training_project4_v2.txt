@@ -1,0 +1,31 @@
+Training Losses — Project4 v2 (2 Epochs)
+
+Epoch 1
+Train:
+- Text loss: 2.8375
+- Image loss: 0.00298
+- Alignment loss: 0.17768
+- Total loss: 2.9278
+
+Validation:
+- Text loss: 2.5519
+- Image loss: 0.00294
+- Alignment loss: 0.15741
+- Total loss: 2.6321
+
+Epoch 2
+Train:
+- Text loss: 2.7401
+- Image loss: 0.00296
+- Alignment loss: 0.15068
+- Total loss: 2.8169
+
+Validation:
+- Text loss: 2.5326
+- Image loss: 0.00298
+- Alignment loss: 0.15578
+- Total loss: 2.6120
+
+Observation:
+Compared to Project4, alignment loss values are larger but more realistic due to the use of frozen CLIP text embeddings.
+This prevents alignment collapse and leads to more stable training behaviour.

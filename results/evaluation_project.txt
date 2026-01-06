@@ -1,0 +1,17 @@
+Evaluation Metrics — Project4 (No Generation)
+
+Validation Set:
+- Cosine similarity (predicted image, target image): 0.45924
+- Cosine similarity (predicted image, predicted text): 0.99948
+- Cosine similarity (target image, ground-truth CLIP text): 0.24948
+- Text loss: 2.54359
+
+Test Set:
+- Cosine similarity (predicted image, target image): 0.45791
+- Cosine similarity (predicted image, predicted text): 0.99948
+- Cosine similarity (target image, ground-truth CLIP text): 0.25230
+- Text loss: 2.55898
+
+Interpretation:
+The model achieves moderate accuracy in predicting the next image embedding (~0.46 cosine similarity).
+Ground-truth captions align with images at approximately 0.25 in CLIP space, providing a realistic reference for generated captions.

@@ -1,0 +1,16 @@
+Modeling Results Summary
+
+Text-only Baseline:
+A GPT-2 text-only baseline was trained for 1 epoch.
+- Training loss: 2.2318
+- Validation loss: 2.0305
+
+This baseline demonstrates fluent text generation but does not incorporate any visual information, often resulting in generic or visually ungrounded captions.
+
+Project4 (Multimodal Alignment Model):
+The proposed model combines CLIP-based image and text embeddings with a shared encoder and a prefix-conditioned GPT-2 decoder.
+The model was trained for 2 epochs using a multi-loss objective consisting of text loss, image embedding regression loss, and image–text alignment loss.
+
+Project4 v2 (Refined Alignment Model):
+To address alignment collapse observed in Project4, the alignment loss was modified to use frozen CLIP text embeddings of the ground-truth caption.
+This refinement results in more stable and realistic alignment behaviour during training.

@@ -1,0 +1,11 @@
+Generated Caption CLIPScore — Project4
+
+Validation Set:
+- CLIPScore (target image vs generated caption): 0.24685
+
+Test Set:
+- CLIPScore (target image vs generated caption): 0.24265
+
+Interpretation:
+Generated captions achieve CLIP alignment scores comparable to ground-truth captions (~0.25),
+indicating that the model produces visually grounded and contextually relevant story continuations.
